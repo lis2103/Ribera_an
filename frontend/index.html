@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forecast Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Forecast Dashboard</h1>
+      <div class="buttons">
+        <button onclick="fetchForecast('gdp')">GDP Growth</button>
+        <button onclick="fetchForecast('inflation')">Inflation Rate</button>
+        <button onclick="fetchForecast('unemployment')">
+          Unemployment Rate
+        </button>
+      </div>
+      <div id="forecast-result"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
