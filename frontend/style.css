@@ -26,6 +26,41 @@ nav a:hover {
 h1 {
   text-align: center;
   padding: 20px;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.homepage h1 {
+  margin-top: 40px;
+  font-size: 2.5em;
+}
+
+.homepage h2 {
+  text-align: center;
+  color: #666;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.welcome-message {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.welcome-message p {
+  font-size: 1.2em;
+  line-height: 1.5;
+  color: #333;
 }
 
 ul {
