@@ -2,7 +2,7 @@ from flask import Flask, render_template
 
 app = Flask(__name__,
             template_folder='../frontend', 
-            static_folder='../backend/static')
+            static_folder='../frontend')
 
 # Landing page route
 @app.route('/')
