@@ -31,11 +31,26 @@ h1 {
 ul {
   list-style-type: none;
   padding: 0;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 li {
-  padding: 8px;
-  margin: 4px 0;
+  padding: 16px;
+  margin: 12px 0;
   background-color: #f9f9f9;
   border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+li:hover {
+  transform: scale(1.02);
+}
+
+li strong {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 1.1em;
 }
