@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flask App - Questions</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
@@ -12,11 +11,9 @@
         <a href="{{ url_for('questions') }}">Questions</a>
         <a href="{{ url_for('graphs') }}">Graphs</a>
     </nav>
-    <h1>Questions and Answers</h1>
-    <ul>
-        {% for item in qa %}
-            <li><strong>{{ item.question }}</strong>: {{ item.answer }}</li>
-        {% endfor %}
-    </ul>
+    <img src="{{ url_for('static', filename='macroeconomic.png') }}" alt="Macroeconomic Indicators">
 </body>
+<footer>
+    <img src="{{ url_for('static', filename='footer.png') }}" alt="Footer Logo">
+</footer>
 </html>

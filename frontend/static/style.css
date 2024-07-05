@@ -1,0 +1,111 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #D61226;
+  overflow: hidden;
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #D61226;
+  margin-bottom: 20px;
+}
+
+h3 {
+  text-align: left; /* Align h3 elements to the left */
+  color: #D61226;
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+li {
+  padding: 16px;
+  margin: 12px 0;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+li:hover {
+  transform: scale(1.02);
+}
+
+li strong {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 1.1em;
+}
+
+/* Image styles */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Button styles */
+button {
+  background-color: #D61226; /* Red */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 250px; /* Set a fixed width for consistency */
+  border-radius: 8px; /* Rounded edges */
+}
+
+button:hover {
+  background-color: #b10e1e;
+}
+
+/* Flex container for button alignment */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Align items to the start */
+  min-height: 100vh;
+}
+
+.container button {
+  margin: 10px;
+}
+
